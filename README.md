@@ -19,22 +19,27 @@ wget https://github.com/minishift/minishift/releases/download/v1.30.0/minishift-
 Descompactando o tgz
 tar xvzf  minishift-1.30.0-linux-amd64.tgz
 
-Parameters
+# Parameters
 
---vm-driver=virtualbox      (Define hypervisors) neste caso,  Virtual Box
---cpus=4                    (Quantidade de CPU)
---memory=12000              (Quantidade de Memória)
---disk-size 70g             (Espaço em Disco)
+* --vm-driver=virtualbox      (Define hypervisors) neste caso,  Virtual Box
+* --cpus=4                    (Quantidade de CPU)
+* --memory=12000              (Quantidade de Memória)
+* --disk-size 70g             (Espaço em Disco)
 
+# run
 ./minishift start --vm-driver=virtualbox --cpus=4 --memory=12000 --disk-size 70g
 
+
+# Defina a variavel de ambiente
 Verificando o path, depois devemos fazer um append nas variáveis de ambiente
 execute ./minishift oc-env
-
-cp minishift /home/user/.minishift/cache/oc/v3.11.0/linux
-
 Não esqueça de coloar no path da sua máquina /home/user/.minishift/cache/oc/v3.11.0/linux
 
+# Copia do binário
+cp minishift /home/user/.minishift/cache/oc/v3.11.0/linux
+
+# Executando o console 
 carregando o console mininishift console
 
-pronto minishift instaldo. Até a proxima pessoal !
+# Feito
+Pronto minishift instaldo, agora é so começar a Desenvolver
