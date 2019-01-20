@@ -1,16 +1,15 @@
-#============================================================================#
-Sérgio da Victoria,  sergiodavictoria@hotmail.com
-#============================================================================#
+# Sérgio da Victori 
 
-#============================================================================#
-Pessoal este é um tutorial de como instalar o Minishift(OpenShift OKD(Origin)
-#============================================================================#
+(sergiodavictoria@hotmail.com)
 
+# Instalação do Minishift(OpenShift OKD(Origin) Single Cluster
 OKD: Renaming of OpenShift Origin with 3.10 Release Kubernetes 1.10
+
 
 RECOMENDADO 16 GB RAM Linux (Centos, Fedora, Ubuntu etc..Ou Mac), no meu caso estou usando, CentOS Linux release 7.6.1810 (Core).
 
 Primeiro temos que ter um hypervisors(KVM) o cluster do minishift roda sobre o (KVM), estou uando o VirtualBox veja como instalar (https://wiki.centos.org/HowTos/Virtualization/VirtualBox)
+
 
 Instalando o minishift minishift-1.30.0
 
